@@ -1,0 +1,18 @@
+class paper(){
+    isStatic:false
+    restitution:0.3
+    friction:0
+    density:1.2
+
+constructor(x,y){
+    this.image=loadImage("paper.png")
+
+};
+display(){
+    var pos = this.body.position;
+    
+    super.display()
+
+}
+}
+
